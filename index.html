@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <script src="typed.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <title>Lebaran</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="word">
+            <div id="typed-strings">
+                <p>
+                    <strong>
+                        Taqabbalallahu minna wa minkum
+                    </strong>
+
+                    <p class="word2">Selamat Hari Raya
+                        <br>
+                        <em>Idul Fitri 1439 H</em>
+                        <br> Eko dan keluarga.</p>
+            </div>
+            <span id="typed"></span>
+        </div>
+
+    </div>
+    <footer>
+        <div class="wa">
+            <a href="https://api.whatsapp.com/send?phone=628568063595&text=Taqabbal%20ya%20kariim%20:)%20">
+                <img src="img/wa.png" alt="">
+                <br> Click this image for reply</a>
+        </div>
+    </footer>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            backSpeed: 40,
+            typeSpeed: 40,
+            loop: true,
+
+        });
+    </script>
+</body>
+
+</html>
